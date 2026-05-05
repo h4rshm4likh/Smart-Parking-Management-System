@@ -1,0 +1,19 @@
+◇ injected env (6) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+Server running on port 8080
+Error: Data too long for column 'phone' at row 1
+    at registerUser (/Users/jushiyagrover/.gemini/antigravity/scratch/smart-parking-system/backend/controllers/authController.js:30:37) {
+  code: 'ER_DATA_TOO_LONG',
+  errno: 1406,
+  sqlState: '22001',
+  sqlMessage: "Data too long for column 'phone' at row 1",
+  sql: "INSERT INTO Users (name, email, phone, vehicle_number, password) VALUES ('NUBRI', 'bcuewbfuweof@gmail.com', 'cbewiubcuewbciwebcuiwe', 'HR02AJ1939', '$2b$10$6biNRjkp921EF6eQFk1hleZYEpG2yOGGFy3NSicN2SdiXYLN1s1wC')"
+}
+Error: Data too long for column 'phone' at row 1
+    at registerUser (/Users/jushiyagrover/.gemini/antigravity/scratch/smart-parking-system/backend/controllers/authController.js:30:37) {
+  code: 'ER_DATA_TOO_LONG',
+  errno: 1406,
+  sqlState: '22001',
+  sqlMessage: "Data too long for column 'phone' at row 1",
+  sql: "INSERT INTO Users (name, email, phone, vehicle_number, password) VALUES ('NUBRI', 'bcuewbfuweof@gmail.com', 'cbewiubcuewbciwebcuiwe', 'HR02AJ1939', '$2b$10$jWa8xy34MGwFbj3mCgIRyOuZ3ivWNsVDQdA0Y9wsC38mW9ryFdf2y')"
+}
